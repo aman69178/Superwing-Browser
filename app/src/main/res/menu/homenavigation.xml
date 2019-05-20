@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeback"
+        android:icon="@drawable/homeback"
+
+        />
+
+    <item
+        android:id="@+id/homeforward"
+        android:icon="@drawable/homeforward"
+        />
+
+    <item
+        android:id="@+id/homedash"
+        android:icon="@drawable/homedash"
+        />
+
+    <item
+        android:id="@+id/homehome"
+        android:icon="@drawable/homehome"
+        />
+
+
+    <item
+        android:id="@+id/hometab"
+        android:icon="@drawable/homerefresh"
+        />
+
+
+</menu>
