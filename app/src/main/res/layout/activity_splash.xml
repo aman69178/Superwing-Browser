@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+
+     >
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/sup"
+        android:paddingBottom="45px"
+        android:paddingLeft="50px"
+        />
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/name"
+          android:layout_marginLeft="110dp"
+          android:layout_marginTop="-74dp"
+          android:textStyle="italic"
+          android:textColor="#000000"
+          android:textSize="30dp"
+          android:layout_below="@id/imgLogo"
+          android:text="Superwing"/>
+
+
+
+
+
+
+</RelativeLayout>

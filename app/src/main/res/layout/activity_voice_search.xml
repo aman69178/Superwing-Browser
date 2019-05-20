@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnSpeakContainer"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:padding="20dp">
+
+
+        <TextView
+
+            android:id="@+id/voiceInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:forceHasOverlappingRendering="true"
+            android:textColor="#fff"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    </ScrollView>
+
+
+    <LinearLayout
+
+        android:id="@+id/btnSpeakContainer"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginStart="130dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <ImageButton
+
+            android:id="@+id/btnSpeak"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/microphone_background"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_keyboard_voice_black_24dp" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnSpeak"
+            android:layout_margin="10dp"
+            android:text="Tap on mic to "
+            android:textColor="#fff" />
+
+    </LinearLayout>
+</RelativeLayout>
