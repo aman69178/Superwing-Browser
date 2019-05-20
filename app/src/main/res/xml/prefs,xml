@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:summary="Username and password information"
+        android:title="Settings" >
+        <SwitchPreference
+            android:key="toggle"
+            android:summary="On/Off"
+            android:title="Set as default Browser" />
+
+        <ListPreference
+            android:entries="@array/listOptions"
+            android:entryValues="@array/listValues"
+            android:key="listpref"
+
+            android:title="Search Engine" />
+
+        <SwitchPreference
+            android:key="Private Mode"
+            android:summaryOn="private"
+            android:summaryOff="public"
+            android:title="Icongito" />
+
+        <MultiSelectListPreference
+            android:entries="@array/listOptions"
+            android:entryValues="@array/listValues"
+            android:key="password"
+            android:title="Clear Records"
+            />
+
+    <SwitchPreference
+        android:key="FlashPlayer"
+        android:summaryOn="On"
+        android:summaryOff="Off"
+        android:title="Flash Player" />
+
+        <SwitchPreference
+            android:key="Image Mode"
+            android:summaryOn="images on"
+            android:summaryOff="images off"
+            android:title="Network Images" />
+
+        <SwitchPreference
+            android:key="Block Ads"
+            android:summaryOn="ads on"
+            android:summaryOff="ads off"
+            android:title="Block Ads" />
+
+
+    </PreferenceCategory>
+</PreferenceScreen>
