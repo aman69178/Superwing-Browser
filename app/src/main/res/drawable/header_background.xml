@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:width="500dp"
+        android:height="300dp"
+        android:left="-2dp"
+        android:right="-50dp"
+        android:top="-20dp"
+        >
+        <rotate
+            android:fromDegrees="-10"
+            android:pivotX="-15%"
+            android:pivotY="100%">
+        <shape android:shape="rectangle">
+            <size
+                android:width="100dp"
+                android:height="260dp" />
+            <solid
+                android:color="@color/accent_material_light" />
+        </shape>
+        </rotate>
+    </item>
+
+
+    <item
+        android:left="3dp"
+        android:top="-10dp"
+        android:right="-20dp"
+
+        >
+        <rotate
+            android:fromDegrees="-7"
+            android:pivotX="-15%"
+            android:pivotY="100%">
+        <bitmap
+
+            android:src="@drawable/hhhbook"
+            android:alpha="0.2"
+            /></rotate>
+    </item>
+</layer-list>
