@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/back"
+        android:icon="@drawable/back"
+
+         />
+
+    <item
+        android:id="@+id/forward"
+        android:icon="@drawable/forward"
+         />
+
+    <item
+        android:id="@+id/dash"
+        android:icon="@drawable/ic_reorder_black_24dp"
+        />
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        />
+
+
+    <item
+        android:id="@+id/tab"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        />
+
+
+</menu>
